@@ -1,7 +1,5 @@
 .gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
 .DS_Store
 /build
 
@@ -34,6 +32,6 @@ proguard/
 # Log Files
 *.log
 
-
+*.iml
 
 .idea

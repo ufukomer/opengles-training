@@ -5,7 +5,13 @@ package com.example.opengles_training.app.constants;
  */
 public final class Constants {
 
-    public static String TAG (Object context) {
+    /**
+     * <p>Generally using for getting class name for logging. Simple usage:</p>
+     * <code>Constants.TAG(this)</code>
+     * @param context refers to the current object.
+     * @return <code>context.getClass().getName()</code>
+     */
+    public static String TAG(Object context) {
         return context.getClass().getName();
     }
 

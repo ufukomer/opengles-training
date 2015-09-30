@@ -45,7 +45,8 @@ The steps in working with a shader object:
 
 1. Create program object:
 
-    > ```glCreateProgram()```
+    > ```glCreateProgram() ```
+
 
 2. Attach shader object to our program object created before:
 
